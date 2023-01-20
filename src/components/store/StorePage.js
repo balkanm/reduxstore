@@ -32,7 +32,7 @@ class StorePage extends React.Component {
         value={this.state.cart.item} 
         onChange={this.handleChange} 
       >
-       <option value="" selected > </option>
+       <option value="" selected></option>
        <option value="Book"  >Book</option>
         <option value="Flower">Flower</option>
         <option value="Perfume">Perfume</option>
