@@ -8,6 +8,7 @@ import { Provider as ReduxProvider } from "react-redux";
 
 const reduxstore = configureStore();
 
+
 render(
   <ReduxProvider store={reduxstore}>
     <Router>
